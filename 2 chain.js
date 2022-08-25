@@ -33,5 +33,6 @@ const user = {
   },
 };
 // const userFloor = user.address.street.second;
+// const userFloor = user.address?.stret?.second; // it will stop at question mark and return undefined
 const userFloor = user.address.stret?.second;
 console.log(userFloor); // undefined
